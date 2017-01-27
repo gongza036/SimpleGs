@@ -1,4 +1,4 @@
-package com.gongza.simplegs.activity;
+package com.gongza.simplegs.activity.data;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,7 +8,7 @@ import com.gongza.simplegs.R;
 
 
 /**
- *PreferencesManager使用方法
+ * PreferencesManager用法
  */
 public class PreferencesManagerAct extends Activity {
 

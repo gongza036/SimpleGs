@@ -15,7 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.gongza.simplegs.activity.PreferencesManagerAct"/>
+        <activity android:name="com.gongza.simplegs.activity.data.PreferencesManagerAct"/>
+        <activity android:name="com.gongza.simplegs.activity.data.AcacheAct"/>
     </application>
 
 </manifest>
