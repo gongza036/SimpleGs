@@ -4,9 +4,6 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ListView;
 
-/**
- * Created by gongza on 2017/2/13.
- */
 
 public class NestListview extends ListView {
 
