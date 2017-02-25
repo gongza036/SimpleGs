@@ -18,6 +18,7 @@
         <activity android:name="com.gongza.simplegs.ActivityDemolist"/>
         <activity android:name="com.gongza.simplegs.activity.data.ActivityPreferencesManager"/>
         <activity android:name="com.gongza.simplegs.activity.data.ActivityAcache"/>
+        <activity android:name="com.gongza.simplegs.activity.data.ActivityEncryptAES"/>
         <activity android:name="com.gongza.simplegs.activity.layout.ActivitySwipeLayout"/>
         <activity android:name="com.gongza.simplegs.activity.layout.ActivitySwipeScroview"/>
     </application>
