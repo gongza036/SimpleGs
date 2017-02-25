@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 
-import com.gongza.simplegs.DemolistActivity;
+import com.gongza.simplegs.ActivityDemolist;
 import com.gongza.simplegs.R;
 
 import java.util.ArrayList;
@@ -19,10 +19,10 @@ import java.util.ArrayList;
 
 public class DemolistAdapter extends BaseAdapter {
     private Context mContext;
-    private ArrayList<DemolistActivity.DemoBean> list;
+    private ArrayList<ActivityDemolist.DemoBean> list;
     private LayoutInflater inflater;
 
-    public DemolistAdapter(Context mContext, ArrayList<DemolistActivity.DemoBean> list) {
+    public DemolistAdapter(Context mContext, ArrayList<ActivityDemolist.DemoBean> list) {
         inflater = LayoutInflater.from(mContext);
         this.mContext = mContext;
         this.list = list;

@@ -13,7 +13,7 @@ import java.util.ArrayList;
  * Created by gongza on 2017/2/13.
  */
 
-public class DemolistActivity extends Activity {
+public class ActivityDemolist extends Activity {
     private ListView lv_swipe_nest;
     private ArrayList<DemoBean> list;
     private DemolistAdapter adapter;
@@ -38,7 +38,7 @@ public class DemolistActivity extends Activity {
         demoSwipeLayout.setDemoClazz(ActivitySwipeLayout.class);
 
         list.add(demoSwipeLayout);
-        adapter=new DemolistAdapter(DemolistActivity.this,list);
+        adapter=new DemolistAdapter(ActivityDemolist.this,list);
     }
 
 

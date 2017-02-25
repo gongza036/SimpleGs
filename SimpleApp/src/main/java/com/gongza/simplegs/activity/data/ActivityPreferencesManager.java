@@ -6,11 +6,11 @@ import android.os.Bundle;
 import com.gongza.library.utils.PreferencesManager;
 import com.gongza.simplegs.R;
 
-
 /**
- * PreferencesManager用法
+ * Created by gongza on 2017/2/19.
  */
-public class PreferencesManagerAct extends Activity {
+
+public class ActivityPreferencesManager extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,9 +34,9 @@ public class PreferencesManagerAct extends Activity {
 
         //用法2
         // put object to preferences
-        PreferencesManager.putObject("object1", new Person("gongza"));
+        PreferencesManager.putObject("object1", new ActivityPreferencesManager.Person("gongza"));
         // get object from preferences
-        PreferencesManager.getObject("object1", Person.class);
+        PreferencesManager.getObject("object1", ActivityPreferencesManager.Person.class);
     }
 
     // your object

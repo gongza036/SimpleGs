@@ -10,7 +10,7 @@ import com.gongza.simplegs.R;
  * Acache用法
  */
 
-public class AcacheAct extends Activity {
+public class ActivityAcache extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
