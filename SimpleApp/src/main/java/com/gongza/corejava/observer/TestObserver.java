@@ -7,8 +7,6 @@ import com.gongza.corejava.observer.watcher.ConcreteWatcher;
 import com.gongza.corejava.observer.watcher.Watched;
 import com.gongza.corejava.observer.watcher.Watcher;
 
-import java.util.Observable;
-import java.util.Observer;
 
 /**
  * Created by gongza on 2017/4/8.
