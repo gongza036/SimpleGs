@@ -1,4 +1,4 @@
-package com.gongza.test;
+package com.gongza.corejava;
 
 /**
  * Created by gongza on 2017/3/25.
