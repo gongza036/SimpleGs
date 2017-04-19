@@ -5,7 +5,10 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import com.gongza.simplegs.activity.adapter.DemolistAdapter;
+import com.gongza.simplegs.activity.data.ActivityRetrofit;
+import com.gongza.simplegs.activity.data.ActivityRxAndroid;
 import com.gongza.simplegs.activity.layout.ActivitySwipeLayout;
+import com.gongza.simplegs.activity.layout.ActivityTimeline;
 
 import java.util.ArrayList;
 
@@ -36,8 +39,19 @@ public class ActivityDemolist extends Activity {
         DemoBean demoSwipeLayout=new DemoBean();
         demoSwipeLayout.setDemoName("SwipeLayout左滑");
         demoSwipeLayout.setDemoClazz(ActivitySwipeLayout.class);
-
         list.add(demoSwipeLayout);
+        DemoBean timelineLayout=new DemoBean();
+        timelineLayout.setDemoName("时间线");
+        timelineLayout.setDemoClazz(ActivityTimeline.class);
+        list.add(timelineLayout);
+        DemoBean rx=new DemoBean();
+        rx.setDemoName("RxAndroid");
+        rx.setDemoClazz(ActivityRxAndroid.class);
+        list.add(rx);
+        DemoBean ret=new DemoBean();
+        ret.setDemoName("Retrofit");
+        ret.setDemoClazz(ActivityRetrofit.class);
+        list.add(ret);
         adapter=new DemolistAdapter(ActivityDemolist.this,list);
     }
 

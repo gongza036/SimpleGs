@@ -15,5 +15,11 @@ public class ActivityRxAndroid extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        showRx();
     }
+
+    private void showRx() {
+
+    }
+
 }
