@@ -20,8 +20,9 @@
         <activity android:name="com.gongza.simplegs.activity.data.ActivityAcache"/>
         <activity android:name="com.gongza.simplegs.activity.data.ActivityEncryptAES"/>
         <activity android:name="com.gongza.simplegs.activity.data.ActivityRxAndroid"/>
+        <activity android:name="com.gongza.simplegs.activity.data.ActivityRetrofit"/>
         <activity android:name="com.gongza.simplegs.activity.layout.ActivitySwipeLayout"/>
         <activity android:name="com.gongza.simplegs.activity.layout.ActivitySwipeScroview"/>
     </application>
-
+    <uses-permission android:name="android.permission.INTERNET"/>
 </manifest>
