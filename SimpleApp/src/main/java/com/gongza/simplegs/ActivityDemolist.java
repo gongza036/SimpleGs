@@ -8,6 +8,7 @@ import com.gongza.simplegs.activity.adapter.DemolistAdapter;
 import com.gongza.simplegs.activity.data.ActivityRetrofit;
 import com.gongza.simplegs.activity.data.ActivityRxAndroid;
 import com.gongza.simplegs.activity.layout.ActivitySwipeLayout;
+import com.gongza.simplegs.activity.layout.ActivityTextSwithView;
 import com.gongza.simplegs.activity.layout.ActivityTimeline;
 
 import java.util.ArrayList;
@@ -30,33 +31,37 @@ public class ActivityDemolist extends Activity {
     }
 
     private void initView() {
-        ListView lv_demo= (ListView) findViewById(R.id.lv_demo);
+        ListView lv_demo = (ListView) findViewById(R.id.lv_demo);
         lv_demo.setAdapter(adapter);
     }
 
-    private void initData(){
-        list=new ArrayList<>();
-        DemoBean demoSwipeLayout=new DemoBean();
+    private void initData() {
+        list = new ArrayList<>();
+        DemoBean demoSwipeLayout = new DemoBean();
         demoSwipeLayout.setDemoName("SwipeLayout左滑");
         demoSwipeLayout.setDemoClazz(ActivitySwipeLayout.class);
         list.add(demoSwipeLayout);
-        DemoBean timelineLayout=new DemoBean();
+        DemoBean timelineLayout = new DemoBean();
         timelineLayout.setDemoName("时间线");
         timelineLayout.setDemoClazz(ActivityTimeline.class);
         list.add(timelineLayout);
-        DemoBean rx=new DemoBean();
+        DemoBean rx = new DemoBean();
         rx.setDemoName("RxAndroid");
         rx.setDemoClazz(ActivityRxAndroid.class);
         list.add(rx);
-        DemoBean ret=new DemoBean();
+        DemoBean ret = new DemoBean();
         ret.setDemoName("Retrofit");
         ret.setDemoClazz(ActivityRetrofit.class);
         list.add(ret);
-        adapter=new DemolistAdapter(ActivityDemolist.this,list);
+        DemoBean ts = new DemoBean();
+        ts.setDemoName("TextSwitchView");
+        ts.setDemoClazz(ActivityTextSwithView.class);
+        list.add(ts);
+        adapter = new DemolistAdapter(ActivityDemolist.this, list);
     }
 
 
-    public class DemoBean{
+    public class DemoBean {
         private String demoName;
         private Class demoClazz;
 
