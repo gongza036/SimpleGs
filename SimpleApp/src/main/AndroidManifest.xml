@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.gongza.simplegs">
+    package="com.gongza.simplegs">
 
     <application
         android:allowBackup="true"
@@ -10,20 +10,21 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.gongza.simplegs.ActivityDemolist"/>
-        <activity android:name="com.gongza.simplegs.activity.data.ActivityPreferencesManager"/>
-        <activity android:name="com.gongza.simplegs.activity.data.ActivityAcache"/>
-        <activity android:name="com.gongza.simplegs.activity.data.ActivityEncryptAES"/>
-        <activity android:name="com.gongza.simplegs.activity.data.ActivityRxAndroid"/>
-        <activity android:name="com.gongza.simplegs.activity.data.ActivityRetrofit"/>
-        <activity android:name="com.gongza.simplegs.activity.layout.ActivitySwipeLayout"/>
-        <activity android:name="com.gongza.simplegs.activity.layout.ActivitySwipeScroview"/>
-        <activity android:name="com.gongza.simplegs.activity.layout.ActivityTextSwithView"/>
+        <activity android:name="com.gongza.simplegs.ActivityDemolist" />
+        <activity android:name="com.gongza.simplegs.activity.data.ActivityPreferencesManager" />
+        <activity android:name="com.gongza.simplegs.activity.data.ActivityAcache" />
+        <activity android:name="com.gongza.simplegs.activity.data.ActivityEncryptAES" />
+        <activity android:name="com.gongza.simplegs.activity.data.ActivityRxAndroid" />
+        <activity android:name="com.gongza.simplegs.activity.data.ActivityRetrofit" />
+        <activity android:name="com.gongza.simplegs.activity.layout.ActivitySwipeLayout" />
+        <activity android:name="com.gongza.simplegs.activity.layout.ActivitySwipeScroview" />
+        <activity android:name="com.gongza.simplegs.activity.layout.ActivityTextSwithView" />
+        <activity android:name="com.gongza.simplegs.activity.layout.ActivityTimeline" />
     </application>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
