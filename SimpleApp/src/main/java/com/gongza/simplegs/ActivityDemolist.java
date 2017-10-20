@@ -11,6 +11,7 @@ import com.gongza.simplegs.activity.layout.ActivityConstraintLayout;
 import com.gongza.simplegs.activity.layout.ActivitySwipeLayout;
 import com.gongza.simplegs.activity.layout.ActivityTextSwithView;
 import com.gongza.simplegs.activity.layout.ActivityTimeline;
+import com.gongza.simplegs.activity.other.ActivityEchartsInWebview;
 
 import java.util.ArrayList;
 
@@ -62,6 +63,10 @@ public class ActivityDemolist extends Activity {
         cl.setDemoName("ConstraintLayout");
         cl.setDemoClazz(ActivityConstraintLayout.class);
         list.add(cl);
+        DemoBean ec = new DemoBean();
+        ec.setDemoName("EchartsInWebview");
+        ec.setDemoClazz(ActivityEchartsInWebview.class);
+        list.add(ec);
 
         adapter = new DemolistAdapter(ActivityDemolist.this, list);
     }

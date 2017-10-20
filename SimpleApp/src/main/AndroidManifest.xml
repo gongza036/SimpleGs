@@ -26,6 +26,7 @@
         <activity android:name="com.gongza.simplegs.activity.layout.ActivityTextSwithView" />
         <activity android:name="com.gongza.simplegs.activity.layout.ActivityTimeline" />
         <activity android:name="com.gongza.simplegs.activity.layout.ActivityConstraintLayout" />
+        <activity android:name="com.gongza.simplegs.activity.other.ActivityEchartsInWebview" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>
