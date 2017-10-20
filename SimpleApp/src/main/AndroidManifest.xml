@@ -25,6 +25,7 @@
         <activity android:name="com.gongza.simplegs.activity.layout.ActivitySwipeScroview" />
         <activity android:name="com.gongza.simplegs.activity.layout.ActivityTextSwithView" />
         <activity android:name="com.gongza.simplegs.activity.layout.ActivityTimeline" />
+        <activity android:name="com.gongza.simplegs.activity.layout.ActivityConstraintLayout" />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

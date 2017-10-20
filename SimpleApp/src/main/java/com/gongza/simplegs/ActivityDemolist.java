@@ -7,6 +7,7 @@ import android.widget.ListView;
 import com.gongza.simplegs.activity.adapter.DemolistAdapter;
 import com.gongza.simplegs.activity.data.ActivityRetrofit;
 import com.gongza.simplegs.activity.data.ActivityRxAndroid;
+import com.gongza.simplegs.activity.layout.ActivityConstraintLayout;
 import com.gongza.simplegs.activity.layout.ActivitySwipeLayout;
 import com.gongza.simplegs.activity.layout.ActivityTextSwithView;
 import com.gongza.simplegs.activity.layout.ActivityTimeline;
@@ -57,6 +58,11 @@ public class ActivityDemolist extends Activity {
         ts.setDemoName("TextSwitchView");
         ts.setDemoClazz(ActivityTextSwithView.class);
         list.add(ts);
+        DemoBean cl = new DemoBean();
+        cl.setDemoName("ConstraintLayout");
+        cl.setDemoClazz(ActivityConstraintLayout.class);
+        list.add(cl);
+
         adapter = new DemolistAdapter(ActivityDemolist.this, list);
     }
 
