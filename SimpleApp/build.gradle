@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 25
-    buildToolsVersion "25.0.2"
+    buildToolsVersion "25.0.3"
     defaultConfig {
         applicationId "com.gongza.simplegs"
         minSdkVersion 22
@@ -21,4 +21,6 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile project(':library')
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+//    compile 'com.android.support:design:26.0.0-alpha1'
 }
